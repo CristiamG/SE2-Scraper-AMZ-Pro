@@ -2,7 +2,7 @@ import os
 import time
 from PySide2.QtWidgets import QWidget, QFileDialog, QTableWidgetItem, QTableView, QTableWidget, QAbstractItemView
 from Interface.MainWindow import MainWindow
-from logic.ScrapFuntions import DataFile, GetUrl, KWUrls, Scraping, UrlsByASIN, DataFrameCreator
+from Logic.ScrapFuntions import DataFile, GetUrl, KWUrls, Scraping, UrlsByASIN, DataFrameCreator
 
 class controls (QWidget,MainWindow):
     def __init__(self):
